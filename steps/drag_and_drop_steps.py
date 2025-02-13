@@ -1,6 +1,9 @@
-from pages.DragAndDropPage import DragAndDropPage
-from behave import *
 import time
+
+from behave import *
+
+from pages.DragAndDropPage import DragAndDropPage
+
 
 @when('user on DragAndDropPage drags "{src}" on top of "{dest}"')
 def user_performs_drag_and_drop_action(context, src, dest):

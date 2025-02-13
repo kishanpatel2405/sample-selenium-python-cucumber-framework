@@ -1,5 +1,7 @@
-from selenium import webdriver
 import os
+
+from selenium import webdriver
+
 
 def create_driver():
   value = os.environ.get('browser')
@@ -13,3 +15,4 @@ def create_driver():
     driver.maximize_window()
     driver.implicitly_wait(time_to_wait=10)
     return driver
+  

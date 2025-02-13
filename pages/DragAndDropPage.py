@@ -1,7 +1,10 @@
-from pages.BasePage import BasePage
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
 import time
+
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+
+from pages.BasePage import BasePage
+
 
 class DragAndDropPage(BasePage):
 

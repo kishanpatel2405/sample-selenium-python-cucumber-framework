@@ -1,5 +1,7 @@
-from pages.HerokuMainPage import HerokuMainPage
 from behave import *
+
+from pages.HerokuMainPage import HerokuMainPage
+
 
 @given('user navigates to HerokuMainPage')
 def user_navigate_to_heroku_main_page(context):

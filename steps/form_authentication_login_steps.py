@@ -1,6 +1,9 @@
-from behave import *
-from pages.FormAuthenticationLoginPage import FormAuthenticationLoginPage
 import time
+
+from behave import *
+
+from pages.FormAuthenticationLoginPage import FormAuthenticationLoginPage
+
 
 @when('user on FormAuthenticationLoginPage enter username as "{username}" and password as "{password}"')
 def user_enters_username_password(context, username, password):

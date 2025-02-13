@@ -1,5 +1,7 @@
 from behave import *
+
 from pages.FormAuthenticationSucessPage import FormAuthenticationSuccessPage
+
 
 @then('user on FormAuthenticationSuccessPage verifies this message "{text_verify}"')
 def user_on_form_authentication_success_verifies_message(context, text_verify):
